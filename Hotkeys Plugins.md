@@ -14,6 +14,10 @@ Stop : ⌘ + L, ⌘ + C
 
 Open Preview : ⌘ + ⇧ + V
 
+## Notes
+
+List Notes : ⌥ + L
+
 ## Regex Previewer
 
 Open Preview : ⌘ + ⌥ + M

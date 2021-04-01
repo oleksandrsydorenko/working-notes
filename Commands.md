@@ -3,22 +3,22 @@
 ## Git
 
 Commit Staged Files : git com <MESSAGE>
-Stage & Commit Files : git cost <MESSAGE>
-Create Branch Locally: git creloc <BRANCH>
-Create Branch Remotely: git crerem <BRANCH>
-Create Tag Locally: git tag <TAG>
-Create Tag Remotely: git push origin <TAG>
-Delete Branch Locally: git deloc <BRANCH>
-Delete Branch Remotely: git delrem <BRANCH>
-Delete Tag Locally: git tag -d <TAG>
-Delete Tag Remotely: git push --delete origin <TAG>
+Stage & Commit Files : git coma <MESSAGE>
+Create Branch Locally : git crebl <BRANCH>
+Create Branch Remotely : git crebr <BRANCH>
+Create Tag Locally : git tag <TAG>
+Create Tag Remotely : git push origin <TAG>
+Delete Branch Locally : git debl <BRANCH>
+Delete Branch Remotely : git debr <BRANCH>
+Delete Tag Locally : git tag -d <TAG>
+Delete Tag Remotely : git push --delete origin <TAG>
+List Branches : git br
 Merge With Fast-Forward Strategy : git meff <BRANCH>
 Reset All Untracked Changes : git wash
 Search : git see <PHRASE>
 Show Conflicts : git conf
-Show History (Extended) = git hist
-Show History (Simple) = git lol
-Show List of Branches : git br
+Show History (Extended) : git hist
+Show History (Simple) : git lol
 Show Status : git st
 Show Who Made Changes From-To Lines : git bla <FROM LINE>,<TO LINE> <FILE>
 Switch Branch : git ch <BRANCH>
