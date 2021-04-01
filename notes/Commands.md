@@ -4,16 +4,16 @@
 
 Commit Staged Files : git com <MESSAGE>
 Stage & Commit Files : git coma <MESSAGE>
-Create Branch Locally : git crebl <BRANCH>
-Create Branch Remotely : git crebr <BRANCH>
+Create Branch Locally : git newbl <BRANCH>
+Create Branch Remotely : git newbr <BRANCH>
 Create Tag Locally : git tag <TAG>
 Create Tag Remotely : git push origin <TAG>
-Delete Branch Locally : git debl <BRANCH>
-Delete Branch Remotely : git debr <BRANCH>
-Delete Tag Locally : git tag -d <TAG>
-Delete Tag Remotely : git push --delete origin <TAG>
 List Branches : git br
-Merge With Fast-Forward Strategy : git meff <BRANCH>
+Merge With Fast-Forward Strategy : git merff <BRANCH>
+Remove Branch Locally : git rembl <BRANCH>
+Remove Branch Remotely : git rembr <BRANCH>
+Remove Tag Locally : git tag -d <TAG>
+Remove Tag Remotely : git push --delete origin <TAG>
 Reset All Untracked Changes : git wash
 Search : git see <PHRASE>
 Show Conflicts : git conf
