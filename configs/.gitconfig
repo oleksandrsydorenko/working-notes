@@ -1,0 +1,47 @@
+[user]
+   name = John Doe
+   email = johndoe@mail.com
+[alias]
+   bla = blame -L git
+   br = branch -vv
+   ch = checkout
+   com = commit -m
+   coma = !git add . && git commit -m
+   conf = !git diff --name-only | uniq | xargs $EDITOR
+   hist = log --pretty=format:'%C(yellow)%h%C(reset) %ad | %C(75)%s%C(reset) %C(yellow)%d%C(reset) [%an]' --graph --date=short --branches --all
+   lol = log --graph --decorate --pretty=oneline --abbrev-commit
+   merff = merge --ff
+   newbl = checkout -b
+   newbr = push -u origin
+   rembl = branch -D
+   rembr = push --delete origin
+   see = !git rev-list --all | xargs git grep -F
+   st = status -sb
+   wash = !git reset --hard && git clean -fd
+[color]
+   branch = auto
+   diff = auto
+   grep = auto
+   interactive = auto
+   status = auto
+   ui = auto
+[core]
+   autocrlf = input
+   preloadindex = true
+[diff]
+   noprefix = true
+[help]
+   autocorrect = 1
+[filter "lfs"]
+   clean = git-lfs clean %f
+   required = true
+   smudge = git-lfs smudge --skip %f
+[lfs]
+   concurrenttransfers = 15
+   batch = true
+[merge]
+   log = true
+[pull]
+   ff = only
+[rebase]
+   autosquash = true
