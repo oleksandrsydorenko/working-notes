@@ -2,35 +2,35 @@
 
 ## Code Runner
 
-Run : `⌘ + ⌥ + N`\
-Stop : `⌃ + ⌥ + M`
+Run: `⌘ + ⌥ + N`\
+Stop: `⌃ + ⌥ + M`
 
 ## Live Sever
 
-Start : `⌘ + L`, `⌘ + O`\
-Stop : `⌘ + L`, `⌘ + C`
+Start: `⌘ + L`, `⌘ + O`\
+Stop: `⌘ + L`, `⌘ + C`
 
 ## Markdown All in One
 
-Open Preview : `⌘ + ⇧ + V`
+Open Preview: `⌘ + ⇧ + V`
 
 ## Notes
 
-List Notes : `⌥ + L`
+List Notes: `⌥ + L`
 
 ## Regex Previewer
 
-Open Preview : `⌘ + ⌥ + M`
+Open Preview: `⌘ + ⌥ + M`
 
 ## REST Client
 
-Send Request : `⌘ + ⌥ + R`
+Send Request: `⌘ + ⌥ + R`
 
 ## Settings Sync
 
-Upload Key : `⇧ + ⌥ + U`\
-Download Key : `⇧ + ⌥ + D`
+Upload Key: `⇧ + ⌥ + U`\
+Download Key: `⇧ + ⌥ + D`
 
 ## Turbo Console Log
 
-Insert Log : `⌥ + ⌃ + L`
+Insert Log: `⌥ + ⌃ + L`
