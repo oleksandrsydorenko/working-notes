@@ -5,7 +5,7 @@
 Run: `⌘ + ⌥ + N`\
 Stop: `⌃ + ⌥ + M`
 
-## Live Sever
+## Live Server
 
 Start: `⌘ + L`, `⌘ + O`\
 Stop: `⌘ + L`, `⌘ + C`
@@ -69,4 +69,7 @@ Download Key: `⇧ + ⌥ + D`
 
 ## Turbo Console Log
 
-Insert Log: `⌥ + ⌃ + L`
+Display Log Message: `⌥ + ⌃ + L`\
+Comment All Log Messages: `⇧ + ⌥ + C`\
+Uncomment All Log Messages: `⇧ + ⌥ + U`\
+Delete All Log Messages: `⇧ + ⌥ + D`
