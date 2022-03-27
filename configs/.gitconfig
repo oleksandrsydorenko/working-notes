@@ -15,6 +15,10 @@
    newbr = push -u origin
    rembl = branch -D
    rembr = push --delete origin
+   newtl = tag
+   newtr = push -u origin
+   remtl = tag -d
+   remtr = push --delete origin
    see = !git rev-list --all | xargs git grep -F
    st = status -sb
    wash = !git reset --hard && git clean -fd

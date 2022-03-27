@@ -33,7 +33,7 @@ Show Who Made Changes From-To Lines: `git bla <FROM LINE>,<TO LINE> <FILE>`
 
 ## Tag
 
-Create Tag Locally: `git tag <TAG>`\
-Create Tag Remotely: `git push origin <TAG>`
-Remove Tag Locally: `git tag -d <TAG>`\
-Remove Tag Remotely: `git push --delete origin <TAG>`
+Create Tag Locally: `git newtl <TAG>`\
+Create Tag Remotely: `git newtr origin <TAG>`
+Remove Tag Locally: `git remtl <TAG>`\
+Remove Tag Remotely: `git remtr --delete origin <TAG>`
