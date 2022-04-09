@@ -5,6 +5,13 @@
 Commit Staged Files: `git com <MESSAGE>`\
 Stage & Commit Files: `git coma <MESSAGE>`
 
+## Config
+
+Set Email Globally `git config --global user.email "<EMAIL>"`
+Set Email Locally `git config user.email "<EMAIL>"`
+Set Username Globally `git config --global user.name "<USERNAME>"`
+Set Username Locally `git config user.name "<USERNAME>"`
+
 ## Branch
 
 Create Branch Locally: `git newbl <BRANCH>`\
