@@ -10,15 +10,16 @@
    conf = !git diff --name-only | uniq | xargs $EDITOR
    hist = log --pretty=format:'%C(yellow)%h%C(reset) %ad | %C(75)%s%C(reset) %C(yellow)%d%C(reset) [%an]' --graph --date=short --branches --all
    lol = log --graph --decorate --pretty=oneline --abbrev-commit
-   merff = merge --ff
-   newbl = checkout -b
-   newbr = push -u origin
-   rembl = branch -D
-   rembr = push --delete origin
-   newtl = tag
-   newtr = push -u origin
-   remtl = tag -d
-   remtr = push --delete origin
+   mff = merge --ff
+   nbl = checkout -b
+   nbr = push -u origin
+   rbl = branch -D
+   rbr = push --delete origin
+   tla = git describe --tags $(git rev-list --tags --max-count=10)
+   ntl = tag
+   ntr = push -u origin
+   rtl = tag -d
+   rtr = push --delete origin
    see = !git rev-list --all | xargs git grep -F
    st = status -sb
    wash = !git reset --hard && git clean -fd
