@@ -12,6 +12,10 @@ Open Web Page Of a Package: `npm home <PACKAGE>`\
 Search For NPM Package That Contains Phrase: `npm search <PHRASE>`\
 Set Save Option To True By Default: `npm config set save true`
 
+## NPX
+
+Update All Packages: `npx npm-check-updates`
+
 ## NVM
 
 Install Node Version: `nvm install <VERSION>`\
@@ -23,6 +27,11 @@ Set Node Version: `nvm use <VERSION>`
 
 Start Node Server: `npx http-server <PATH> <OPTIONS>`\
 Start Python Server: `python -m SimpleHTTPServer 3000`
+
+## Tools
+
+Deduplicate All Packages (yarn-deduplicate): `yarn-deduplicate yarn.lock`\
+Update All Packages (npm-check-updates): `yarn npm-check-updates`
 
 ## Yarn
 

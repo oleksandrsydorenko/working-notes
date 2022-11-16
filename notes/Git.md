@@ -26,6 +26,10 @@ Switch Branch: `git ch <BRANCH>`
 
 Reset Untracked Changes: `git wash`
 
+## Revert
+
+Revert Commit Chains: `git revert --no-commit HEAD~<NUMBER>..`
+
 ## Search
 
 Search Phrase: `git see <PHRASE>`
