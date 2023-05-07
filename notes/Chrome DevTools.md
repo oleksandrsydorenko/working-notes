@@ -8,8 +8,8 @@ Run Snippet: `⌘ + P`, `!`
 
 ## Element Selectors
 
-Get First Element By Selector: `$({{SELECTOR}})`\
-Get All Elements By Selector: `$$({{SELECTOR}})`\
+Get First Element By Selector: `$(<SELECTOR>)`\
+Get All Elements By Selector: `$$(<SELECTOR>)`\
 Get Current Selected Element On Elements Tab: `$0`\
 Get Previous Selected Element On Elements Tab: `$1`
 
